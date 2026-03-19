@@ -1,22 +1,36 @@
 {
   "name": "weaterapp",
+  "author" : "Thalíz Fajardo <fajardothaliz@gmail.com>",
+  "license":"MIT",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThalizFajardo/WeaterApp.git"
+  },
+  "description": "",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "@tailwindcss/vite": "^4.2.2",
+    "axios": "^1.13.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
-    "vite": "^3.0.7"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint-prettier": "^0.0.0-empty",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.1"
   }
 }
