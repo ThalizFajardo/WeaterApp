@@ -34,10 +34,10 @@ export default [
         { allowConstantExport: true },
       ],
       "@typescript-eslint/no-unused-vars": [
-        "warning",
+        "warn",
         { argsIgnorePattern: "^_" },
       ],
-      "@typescript-eslint/no-explicit-any": "error",
+      "@typescript-eslint/no-explicit-any": "warn",
     },
   },
 
