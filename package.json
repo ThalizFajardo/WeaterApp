@@ -10,6 +10,9 @@
   },
   "description": "Frontend weather application using React,Typescipt and Tailwind CSS whit external API consumption, typed state handling and responsive UI.",
   "type": "module",
+   "engines": {
+    "node": "20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
