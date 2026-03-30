@@ -112,9 +112,11 @@ const DashBoard = () => {
           >
             <source
               src={
-        wheatherVideos[
-          data.weather[0].description as wheaterDescription
-        ] ?? defaultVideo
+        data
+                  ? wheatherVideos[
+                      data.weather[0].description as wheaterDescription
+                    ]
+                  : defaultVideo
       }
               type="video/mp4"
             />
